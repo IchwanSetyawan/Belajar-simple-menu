@@ -1,0 +1,24 @@
+.menu{
+	height: 50px;
+	width:1000px;
+	background-color: #42f4b0;
+	margin:auto;
+}
+.menu_list>li{
+	display: inline; /*membuat list menjadi horizontal*/
+	line-height: 50px; /*otomatis ditengah*/
+}
+.menu_list>li>a{
+	color : black; /*membuat teks berwarna*/
+	text-decoration: none; /*menghilangkan garis datar link/a*/
+	font-family: consolas; /*jenis huruf*/
+	font-size: 16px;
+	font-weight: bold;
+	padding: 14px;
+
+}
+.menu_list>li>a:hover{
+	padding: 14px;
+	background: #41e5f4;
+
+}
