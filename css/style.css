@@ -1,24 +1,133 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
 .menu{
-	height: 50px;
+	height: 80px;
 	width:1000px;
-	background-color: #42f4b0;
+	background-color: #fdcb6e;
+	border-radius: 10px 10px 0 0;
 	margin:auto;
 }
 .menu_list>li{
 	display: inline; /*membuat list menjadi horizontal*/
-	line-height: 50px; /*otomatis ditengah*/
+	line-height: 80px; /*otomatis ditengah*/
 }
 .menu_list>li>a{
 	color : black; /*membuat teks berwarna*/
 	text-decoration: none; /*menghilangkan garis datar link/a*/
 	font-family: consolas; /*jenis huruf*/
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
 	padding: 14px;
 
 }
-.menu_list>li>a:hover{
-	padding: 14px;
+.menu_list>li>a:hover{ /*memberikan efek saat mouse berada di tulisan*/
+	padding: 30px;
 	background: #41e5f4;
 
+}
+.background{
+	height: 800px;
+	width: 1000px;
+	background-color : #ffff;
+	margin: auto;
+}
+.Bkiri_list{
+	float: left;
+	height: 767px;
+	width: 664px;
+	background-color: #6dc8ed; 
+	border-radius: 10px 10px 10px 10px;
+	
+}
+
+.list1{
+	float: left;
+	height: 230px;
+	width: 634px;
+	background-color: #ffff;
+	margin-top: 20px;  
+	border-radius: 15px 15px 15px 15px;
+
+}
+.list2{
+	float: left;
+	height: 230px;
+	width: 634px;
+	background-color: #ffff;
+	margin-top: 20px;  
+	border-radius: 15px 15px 15px 15px;
+}
+.list3{
+	float: left;
+	height: 230px;
+	width: 634px;
+	background-color: #ffff;
+	margin-top: 20px;  
+	border-radius: 15px 15px 15px 15px;
+}
+.Bkanan_list{
+	float: right;
+	height: 767px;
+	width: 278px;
+	background-color: #79f7c4;
+	background-position: right top;	 
+	border-radius: 10px 10px 10px 10px;
+	padding: 0;	
+}
+
+.list4{
+	float: right;
+	height: 150px;
+	width: 230px;
+	background-color: #ffff;
+	margin:50px 20px 10px 0;  /*searah jarum jam*/
+	border-radius: 15px 15px 15px 15px;
+
+}
+.list5{
+	float: right;
+	height: 150px;
+	width: 230px;
+	background-color: #ffff;
+	margin:10px 20px 10px 0;  
+	border-radius: 15px 15px 15px 15px;
+
+}
+.list6{
+	float: right;
+	height: 150px;
+	width: 230px;
+	background-color: #ffff;
+	margin:10px 20px 10px 0;  
+	border-radius: 15px 15px 15px 15px;
+
+}
+.list7{
+	float: right;
+	height: 150px;
+	width: 230px;
+	background-color: #ffff;
+	margin:10px 20px 10px 0;  
+	border-radius: 15px 15px 15px 15px;
+
+}
+
+.footer{
+	height: 80px;
+	width:1000px;
+	background-color: #fdcb6e;
+	border-radius: 20px 20px 0 ;
+	margin-top: 10em; /*||'em'yaitu 2x px||'%' persent biasa||rem lebih besar||*/
+
+}
+
+li{
+	list-style: none;
+}
+
+p{
+	margin-left: 20px;
 }
