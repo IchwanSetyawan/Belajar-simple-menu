@@ -59,6 +59,10 @@ body{
 	background-color: #ffff;
 	margin-top: 20px;  
 	border-radius: 15px 15px 15px 15px;
+
+}
+.list2 img{
+	margin:10px 10px 10px 10px; 
 }
 .list3{
 	float: left;
